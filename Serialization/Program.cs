@@ -18,10 +18,11 @@ namespace Serialization
             serializer.Serialize(saveFile, items);
             saveFile.Close();
 
+            saveFile = File.Open("Items.xml", FileMode.OpenOrCreate);
             items = (Items) serializer.Deserialize(saveFile);
             saveFile.Close();
 
-            System.Console.WriteLine(items);
+            Console.WriteLine(items.bruInt);
             Console.ReadLine();
         }
     }

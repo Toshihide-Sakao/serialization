@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Serialization/bin/Debug/netcoreapp3.1/Serialization.dll",
+            "program": "${workspaceFolder}/Serialization/bin/Debug/netcoreapp2.1/Serialization.dll",
             "args": [],
             "cwd": "${workspaceFolder}/Serialization",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
